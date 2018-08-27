@@ -41,9 +41,9 @@
     
 #pragma mark Sandbox Crenditials
     txnParam.environment = PUMEnvironmentTest;
-    txnParam.key = @"BovOZqs2";
-    txnParam.merchantid = @"6357467";
-    self.payu_salt = @"jrJPbfcUyI";
+    txnParam.key = @"";
+    txnParam.merchantid = @"";
+    self.payu_salt = @"";
 
 #pragma mark Production Crenditials
 //    txnParam.environment = PUMEnvironmentProduction;
