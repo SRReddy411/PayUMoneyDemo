@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED241AF0DF38E1CE281609B /* Pods_PayuMoneyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3494412B41755F0D6294F704 /* Pods_PayuMoneyDemo.framework */; };
+		FD15B27B212D3F4200CD6EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15B27A212D3F4200CD6EDE /* AppDelegate.swift */; };
+		FD15B27D212D3F4200CD6EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15B27C212D3F4200CD6EDE /* ViewController.swift */; };
+		FD15B280212D3F4200CD6EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD15B27E212D3F4200CD6EDE /* Main.storyboard */; };
+		FD15B282212D3F4900CD6EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD15B281212D3F4900CD6EDE /* Assets.xcassets */; };
+		FD15B285212D3F4900CD6EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD15B283212D3F4900CD6EDE /* LaunchScreen.storyboard */; };
+		FD15B28F212D3F6500CD6EDE /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD15B28D212D3F6400CD6EDE /* PayUServiceHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3494412B41755F0D6294F704 /* Pods_PayuMoneyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayuMoneyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937093218901F03E380586CA /* Pods-PayuMoneyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayuMoneyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayuMoneyDemo/Pods-PayuMoneyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9892BC7F6994FD29C93C3F /* Pods-PayuMoneyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayuMoneyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayuMoneyDemo/Pods-PayuMoneyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD15B277212D3F4200CD6EDE /* PayuMoneyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayuMoneyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD15B27A212D3F4200CD6EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD15B27C212D3F4200CD6EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD15B27F212D3F4200CD6EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD15B281212D3F4900CD6EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD15B284212D3F4900CD6EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD15B286212D3F4900CD6EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD15B28C212D3F6400CD6EDE /* PayuMoneyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayuMoneyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD15B28D212D3F6400CD6EDE /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
+		FD15B28E212D3F6500CD6EDE /* PayUServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD15B274212D3F4200CD6EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED241AF0DF38E1CE281609B /* Pods_PayuMoneyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8161FF2269230E88FB9ADF32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				937093218901F03E380586CA /* Pods-PayuMoneyDemo.debug.xcconfig */,
+				FA9892BC7F6994FD29C93C3F /* Pods-PayuMoneyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9199CDE9390B843E4B69FBEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3494412B41755F0D6294F704 /* Pods_PayuMoneyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD15B26E212D3F4200CD6EDE = {
+			isa = PBXGroup;
+			children = (
+				FD15B279212D3F4200CD6EDE /* PayuMoneyDemo */,
+				FD15B278212D3F4200CD6EDE /* Products */,
+				8161FF2269230E88FB9ADF32 /* Pods */,
+				9199CDE9390B843E4B69FBEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD15B278212D3F4200CD6EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD15B277212D3F4200CD6EDE /* PayuMoneyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD15B279212D3F4200CD6EDE /* PayuMoneyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD15B28E212D3F6500CD6EDE /* PayUServiceHelper.h */,
+				FD15B28D212D3F6400CD6EDE /* PayUServiceHelper.m */,
+				FD15B27A212D3F4200CD6EDE /* AppDelegate.swift */,
+				FD15B27C212D3F4200CD6EDE /* ViewController.swift */,
+				FD15B27E212D3F4200CD6EDE /* Main.storyboard */,
+				FD15B281212D3F4900CD6EDE /* Assets.xcassets */,
+				FD15B283212D3F4900CD6EDE /* LaunchScreen.storyboard */,
+				FD15B286212D3F4900CD6EDE /* Info.plist */,
+				FD15B28C212D3F6400CD6EDE /* PayuMoneyDemo-Bridging-Header.h */,
+			);
+			path = PayuMoneyDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD15B276212D3F4200CD6EDE /* PayuMoneyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD15B289212D3F4900CD6EDE /* Build configuration list for PBXNativeTarget "PayuMoneyDemo" */;
+			buildPhases = (
+				CF33053AE4861447B491AE6E /* [CP] Check Pods Manifest.lock */,
+				FD15B273212D3F4200CD6EDE /* Sources */,
+				FD15B274212D3F4200CD6EDE /* Frameworks */,
+				FD15B275212D3F4200CD6EDE /* Resources */,
+				702FC23F4ED17F7BCD76F15C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayuMoneyDemo;
+			productName = PayuMoneyDemo;
+			productReference = FD15B277212D3F4200CD6EDE /* PayuMoneyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD15B26F212D3F4200CD6EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "volive solutions";
+				TargetAttributes = {
+					FD15B276212D3F4200CD6EDE = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = FD15B272212D3F4200CD6EDE /* Build configuration list for PBXProject "PayuMoneyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD15B26E212D3F4200CD6EDE;
+			productRefGroup = FD15B278212D3F4200CD6EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD15B276212D3F4200CD6EDE /* PayuMoneyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD15B275212D3F4200CD6EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD15B285212D3F4900CD6EDE /* LaunchScreen.storyboard in Resources */,
+				FD15B282212D3F4900CD6EDE /* Assets.xcassets in Resources */,
+				FD15B280212D3F4200CD6EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		702FC23F4ED17F7BCD76F15C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayuMoneyDemo/Pods-PayuMoneyDemo-frameworks.sh",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayuMoneyDemo/Pods-PayuMoneyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF33053AE4861447B491AE6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayuMoneyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD15B273212D3F4200CD6EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD15B28F212D3F6500CD6EDE /* PayUServiceHelper.m in Sources */,
+				FD15B27D212D3F4200CD6EDE /* ViewController.swift in Sources */,
+				FD15B27B212D3F4200CD6EDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD15B27E212D3F4200CD6EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD15B27F212D3F4200CD6EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD15B283212D3F4900CD6EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD15B284212D3F4900CD6EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD15B287212D3F4900CD6EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD15B288212D3F4900CD6EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD15B28A212D3F4900CD6EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937093218901F03E380586CA /* Pods-PayuMoneyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZHFWKUNJV;
+				INFOPLIST_FILE = PayuMoneyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volive.PayuMoneyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayuMoneyDemo/PayuMoneyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD15B28B212D3F4900CD6EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9892BC7F6994FD29C93C3F /* Pods-PayuMoneyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZHFWKUNJV;
+				INFOPLIST_FILE = PayuMoneyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volive.PayuMoneyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayuMoneyDemo/PayuMoneyDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD15B272212D3F4200CD6EDE /* Build configuration list for PBXProject "PayuMoneyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD15B287212D3F4900CD6EDE /* Debug */,
+				FD15B288212D3F4900CD6EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD15B289212D3F4900CD6EDE /* Build configuration list for PBXNativeTarget "PayuMoneyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD15B28A212D3F4900CD6EDE /* Debug */,
+				FD15B28B212D3F4900CD6EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD15B26F212D3F4200CD6EDE /* Project object */;
+}
